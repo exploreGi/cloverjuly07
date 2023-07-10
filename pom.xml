@@ -160,15 +160,14 @@
     <build>
         <plugins>
             <plugin>
-		    <plugin>
-        	<groupId>org.openclover</groupId>
+		 <groupId>org.openclover</groupId>
         	<artifactId>clover-maven-plugin</artifactId>
         		<configuration>
             		<generateHtml>true</generateHtml>
             		<generateXml>true</generateXml>
         	</configuration>
       	</plugin>
-
+		 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2</version>
